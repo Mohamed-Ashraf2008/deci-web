@@ -1,5 +1,5 @@
 html{
-    font-size: 9px;
+    font-size: 10px;
 }
 body{
     background-color: #ede8f5;
@@ -12,7 +12,7 @@ body{
 }
 .Topic1 , .Topic2 , .Topic3{
     background-color:#adbbda;
-    padding: 40px 40px;
+    padding: 20px 30px;
     display:block;
     max-width: 400px;
     max-height: 150px;
