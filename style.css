@@ -1,0 +1,45 @@
+html{
+    font-size: 9px;
+}
+body{
+    background-color: #ede8f5;
+    font-family:sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 90vh;
+}
+.Topic1 , .Topic2 , .Topic3{
+    background-color:#adbbda;
+    padding: 40px 60px;
+    display:block;
+    max-width: 400px;
+    max-height: 150px;
+    overflow: hidden;
+    transition: .7s ease-in-out;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    box-shadow: 7px 4px 6px -1px #4a619c54;
+    border: 5px solid #3d52a0;
+}
+p{
+    font-size: 3rem;
+    color: #4a619c;
+    visibility: hidden;
+    transition: .7s ease-in-out;
+}
+h1{
+    font-size: 4rem;
+    color: #3d52a0;
+}
+.Topic1:hover , .Topic2:hover , .Topic3:hover{
+    max-height: 800px;
+    p{
+        visibility: visible;
+    }
+}
+ul li{
+    color: #4a619c;
+    font-size: 3rem;
+}
