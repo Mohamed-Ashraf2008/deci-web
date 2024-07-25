@@ -12,7 +12,7 @@ body{
 }
 .Topic1 , .Topic2 , .Topic3{
     background-color:#adbbda;
-    padding: 40px 60px;
+    padding: 40px 40px;
     display:block;
     max-width: 400px;
     max-height: 150px;
